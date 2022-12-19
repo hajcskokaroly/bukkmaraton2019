@@ -22,7 +22,13 @@ public class Main {
         System.out.println("4. feladat: A versenytávot nem teljesítők: " + szazalekertek + "%");
 
         //5.feladat
-
+        int noiRovidDarabszam = 0;
+        for (Versenyzo versenyzo : versenyzoList) {
+            if (versenyzo.isNo() && versenyzo.getVersenytav().equals("Rövid")) {
+                noiRovidDarabszam++;
+            }
+        }
+        System.out.println("5. feladat: Női versenyzők száma a rövid távú versenyen: " + noiRovidDarabszam + "fő");
 
 
     }
