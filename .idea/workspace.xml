@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c572a7ee-16e5-4a9a-a470-6e17d5f81bc3" name="Elso feladat" comment="elso feladat">
+    <list default="true" id="c572a7ee-16e5-4a9a-a470-6e17d5f81bc3" name="feladat" comment="masodik feladat">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +45,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671447358916</updated>
-      <workItem from="1671447359686" duration="362000" />
+      <workItem from="1671447359686" duration="1162000" />
     </task>
     <task id="LOCAL-00001" summary="elso feladat">
       <created>1671447540173</created>
@@ -50,14 +54,39 @@
       <option name="project" value="LOCAL" />
       <updated>1671447540173</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="masodik feladat">
+      <created>1671447892109</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671447892109</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="elso feladat" />
-    <option name="LAST_COMMIT_MESSAGE" value="elso feladat" />
+    <MESSAGE value="masodik feladat" />
+    <option name="LAST_COMMIT_MESSAGE" value="masodik feladat" />
   </component>
 </project>
