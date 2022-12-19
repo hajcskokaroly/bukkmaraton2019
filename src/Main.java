@@ -30,6 +30,16 @@ public class Main {
         }
         System.out.println("5. feladat: Női versenyzők száma a rövid távú versenyen: " + noiRovidDarabszam + "fő");
 
+        // 6. Feladat
+        boolean volt = false;
+        for (Versenyzo versenyzo : versenyzoList) {
+            if (versenyzo.getOrakSzama() >= 6) {
+                volt = true;
+                break;
+            }
+        }
+        String eredmenySzoveg = volt ? "6. feladat: Volt ilyen versenyző " : "6. feladat: Nem volt ilyen versenyző";
+        System.out.println(eredmenySzoveg);
 
     }
 }
