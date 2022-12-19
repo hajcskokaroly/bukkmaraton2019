@@ -3,7 +3,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-
+        // 3. feladat
         List<Versenyzo> versenyzoList = new ArrayList<>();
         File inputFile = new File("bukkm2019.txt");
         try (Scanner scanner = new Scanner(inputFile)) {
@@ -16,6 +16,14 @@ public class Main {
             System.err.print("Fájl nem található!");
             return;
         }
+
+        //4.feladat
+        double szazalekertek = (1 - ((double) versenyzoList.size() / 691)) * 100;
+        System.out.println("4. feladat: A versenytávot nem teljesítők: " + szazalekertek + "%");
+
+        //5.feladat
+
+
 
     }
 }
